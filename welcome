@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://code.jquery.com/jquery.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="Mycss.css">
+<link rel="stylesheet" href="small.css">
+<link rel="stylesheet" href="medium.css">
+<link rel="stylesheet" href="large.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-default" role="navigation">
+   <div class="navbar-header">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">My Site</a>
+   </div>
+     <div class="collapse navbar-collapse" id="example-navbar-collapse">
+      <ul class="nav navbar-nav">
+         <li class="active"><a href="#">Home</a></li>    
+		 <li><a href="#">About us</a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Facility</a></li>
+         <li><a href="#">Contact us</a></li>
+		   <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+         Java <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+         <li><a href="#">Swing</a></li>
+         <li><a href="#">jMeter</a></li>
+         <li><a href="#">EJB</a></li>
+         <li class="divider"></li>
+         <li><a href="#">Separated link</a></li>
+      </ul>
+   </li>
+      </ul>
+   </div>
+</nav>
+<div class="page-header">
+<h2>Welcome to My Site <small class="hidden-xs">Solutions to your Dreams</small><h2>
+</div>
+</header>
+<div class="main">
+<div class="container">
+
+<div class="row">
+<div class="col-md-8">
+		<div class="panel panel-info">
+		
+		<div class="panel-heading"><h3 class="page-title">My Blog</h3></div>
+		<div class="panel-body">
+		<p>
+		
+
+    Scaffolding: Bootstrap provides a basic structure with Grid System, link styles, background. This is is covered in detail in the section Bootstrap Basic Structure
+
+    CSS: Bootstrap comes with feature of global CSS settings, fundamental HTML elements styled and enhanced with extensible classes, and an advanced grid system. This is covered in detail in the section Bootstrap with CSS.
+
+    Components: Bootstrap contains over a dozen reusable components built to provide iconography, dropdowns, navigation, alerts, popovers, and much more. This is covered in detail in the section Layout Components.
+
+    JavaScript Plugins: Bootstrap contains over a dozen custom jQuery plugins. You can easily include them all, or one by one. This is covered in details in the section Bootstrap Plugins.
+
+    Customize: You can customize Bootstrap's components, LESS variables, and jQuery plugins to get your very own version.
+
+		</p>
+		
+		
+		</div>
+		</div>
+</div>
+<div class="col-md-4">
+<ul class="list-group">
+<li class="list-group-item">Bootstrap provides a basic structure with Grid System</li>
+<li class="list-group-item">Bootstrap provides a basic structure with Grid System</li>
+<li class="list-group-item">Bootstrap provides a basic structure with Grid System</li>
+<li class="list-group-item">Bootstrap provides a basic structure with Grid System</li>
+<li class="list-group-item">Bootstrap provides a basic structure with Grid System</li>
+
+</ul>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+<footer>
+</footer>
+   <script src="https://code.jquery.com/jquery.js"></script>
+
+</body>
+</html>
